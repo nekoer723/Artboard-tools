@@ -253,7 +253,7 @@ public class picListener implements ActionListener, MouseListener, MouseMotionLi
         y1=e.getY();//获取按下时鼠标的y坐标
 
         if("画曲线".equals(str) ||"画直线".equals(str) ||"矩形".equals(str) ||"圆形".equals(str) ||"椭圆".equals(str)||"实心圆形".equals(str)
-        ||"橡皮擦".equals(str)){
+        ||"橡皮擦".equals(str)||"文本框".equals(str)){
             System.out.println("press");
             list.add(flag2);
         }
